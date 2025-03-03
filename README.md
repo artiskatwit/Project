@@ -1,19 +1,26 @@
-# The Algorithms - Java
+# Java Object-Oriented Programming Projects
 
-[![Build](https://github.com/TheAlgorithms/Java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/TheAlgorithms/Java/actions/workflows/build.yml)
-[![Discord chat](https://img.shields.io/discord/808045925556682782.svg?logo=discord&colorB=7289DA&style=flat-square)](https://discord.gg/c7MnfGFGa6)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/TheAlgorithms/Java)
+This repository contains a series of Java programming assignments that demonstrate key concepts in object-oriented programming. Each project covers a specific topic and illustrates practical applications of these concepts.
 
+## Projects Overview
 
-You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click.
+1. **Geometric Shapes**
+    - **Abstract Class:** Created an abstract class `GeometricShape` with abstract methods `area()` and `perimeter()`.
+    - **Subclasses:** Implemented subclasses `Triangle` and `Square` that extend `GeometricShape` and calculate the area and perimeter.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TheAlgorithms/Java)
+2. **Vehicle Class Hierarchy**
+    - **Base Class:** Developed a base class `Vehicle` with properties such as make, model, year, and fuel type.
+    - **Subclasses:** Created `Truck`, `Car`, and `Motorcycle` subclasses with methods for calculating fuel efficiency, distance traveled, and maximum speed.
 
-### All algorithms are implemented in Java (for educational purposes)
-These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library.
+3. **Book Class**
+    - **Private Variables:** Defined a class `Book` with private instance variables `title`, `author`, and `price`.
+    - **Getter and Setter Methods:** Provided public getter and setter methods for accessing and modifying these variables.
+    - **Discount Method:** Added a method `applyDiscount()` to reduce the price by a given percentage.
 
-## Contribution Guidelines
-Please read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute to this project.
+4. **Animal Class Hierarchy**
+    - **Base Class:** Created a base class `Animal` with methods `eat()` and `sound()`.
+    - **Subclasses:** Developed `Lion`, `Tiger`, and `Panther` subclasses that override the `eat()` and `sound()` methods with specific behaviors for each animal.
 
-## Algorithms
-Our [directory](DIRECTORY.md) has the full list of applications.
+5. **Payment System Interface**
+    - **Interface Definition:** Defined an interface `Payment` with methods `pay(double amount)` and `getPaymentDetails()`.
+    - **Implementations:** Implemented the interface in `CreditCardPayment` and `PayPalPayment` classes, using polymorphism to process payments.
